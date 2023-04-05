@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: .5rem;
+
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right, #054551, #25b8d8);
+}
+
+.navbar-links ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+
+.navbar-links a:hover {
+    background-color: rgb(45, 6, 12);
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #054551, #5199b8);
+
+}
+
+
+.form h1 {
+    margin-top: 15px;
+    color: White;
+    text-align: center;
+}
+
+.form {
+
+    box-shadow: 20px 50px 20px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #25b8d8;
+    backdrop-filter: (10px);
+}
+
+.form input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    margin-right: 20px;
+
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.form #email {
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+
+.form #name {
+    margin-left: 20px;
+}
+
+.form h3 {
+    color: white;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.form textarea {
+    color: #050505;
+    border: none;
+    font-weight: 20px;
+    margin-right: 30px;
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.form #submit-button {
+    border: none;
+    background: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: 600;
+    ;
+    COLOR: #190404;
+    font: size 20px;
+    width: 100px;
+    padding: 0px;
+
+}
+
+.form #submit-button:hover {
+    opacity: 0.7;
+}
+
+.main {
+    background: linear-gradient(to right, #05404a, #5199b8);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    /* margin-top:110px; */
+    padding-top: 110px;
+    justify-content: space-evenly;
+
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading h1 {
+    font-weight: 800;
+    font-style: italic;
+    color: #ffff;
+
+
+}
+
+.heading h5 {
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.heading p {
+    Width: 400px;
+    align-content: center;
+    margin-top: 20px
+}
+
+.about img {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+
+.background {
+    background: linear-gradient(to right, #05404a, #5199b8);
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.first-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.first-row h2 {
+    position: relative;
+    left: 150px;
+}
+
+
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img {
+    height: 400px;
+    width: 370px
+}
+
+.image1 img:hover,
+.image2 img:hover,
+.image3 img:hover,
+.image4 img:hover {
+    transform: translate(0, -9px);
+}
+
+.buy-now {
+    color: #05404a;
+    background: #8fabba;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buy-now:hover {
+    opacity: 0.7;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.picture img {
+    height: 500px;
+    width: 400px;
+}
+
+.detail {
+    margin: 20px;
+}
+
+.detail h5,
+.detail h2 {
+    margin-bottom: 20px;
+    padding-top: 5px
+}
